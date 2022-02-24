@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{729E3877-4E80-862A-F071-A28829B2BC12}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "Homfy",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
