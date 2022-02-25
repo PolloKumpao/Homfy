@@ -1,0 +1,534 @@
+﻿Log file open, 02/24/22 23:37:24
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogPakFile: Display: Found Pak file ../../../Homfy/Content/Paks/Homfy-WindowsServer.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../Homfy/Content/Paks/Homfy-WindowsServer.pak.
+LogPakFile: PakFile PrimaryIndexSize=33182
+LogPakFile: PakFile PathHashIndexSize=52611
+LogPakFile: PakFile FullDirectoryIndexSize=76878
+LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile '../../../Homfy/Content/Paks/Homfy-WindowsServer.pak' (chunk index -1, root '../../../') mounted
+LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:../../../ File:../../../Homfy/Content/Paks/Homfy-WindowsServer.pak)
+LogPakFile: OnPakFileMounted2Time == 0.000162
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.620072
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogLuminAPIImpl: Warning: MLSDK not found.  This likely means the MLSDK environment variable is not set.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.27-CL-0
+LogInit: Engine Version: 4.27.2-0+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-0+++UE4+Release-4.27
+LogInit: Net CL: 0
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-7600K CPU @ 3.80GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Feb 24 2022 22:14:19
+LogInit: Compiled with Visual C++: 19.28.29913.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  -log
+LogInit: Base Directory: D:/Homfy/Homfy/App/Unreal/Releases/WindowsServer/Homfy/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: false
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.02.24-22.37.25:616][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2022.02.24-22.37.25:616][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2022.02.24-22.37.25:616][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2022.02.24-22.37.25:617][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:617][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2022.02.24-22.37.25:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:618][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2022.02.24-22.37.25:619][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2022.02.24-22.37.25:623][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2022.02.24-22.37.25:624][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2022.02.24-22.37.25:625][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2022.02.24-22.37.25:629][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2022.02.24-22.37.25:631][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2022.02.24-22.37.25:631][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2022.02.24-22.37.25:632][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2022.02.24-22.37.25:632][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2022.02.24-22.37.25:633][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2022.02.24-22.37.25:633][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2022.02.24-22.37.25:634][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2022.02.24-22.37.25:636][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2022.02.24-22.37.25:637][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:637][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2022.02.24-22.37.25:638][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2022.02.24-22.37.25:638][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2022.02.24-22.37.25:638][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2022.02.24-22.37.25:638][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2022.02.24-22.37.25:639][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2022.02.24-22.37.25:639][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2022.02.24-22.37.25:639][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2022.02.24-22.37.25:640][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2022.02.24-22.37.25:640][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2022.02.24-22.37.25:641][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2022.02.24-22.37.25:643][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2022.02.24-22.37.25:644][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2022.02.24-22.37.25:645][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2022.02.24-22.37.25:645][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:648][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:651][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.24-22.37.25:656][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.24-22.37.25:656][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:657][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.24-22.37.25:658][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:658][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.24-22.37.25:658][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.24-22.37.25:659][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.24-22.37.25:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.24-22.37.25:659][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.24-22.37.25:659][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.24-22.37.25:660][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.24-22.37.25:660][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.24-22.37.25:660][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.24-22.37.25:661][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.24-22.37.25:663][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.24-22.37.25:665][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.24-22.37.25:665][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.24-22.37.25:665][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.24-22.37.25:666][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.24-22.37.25:669][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.24-22.37.25:671][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.24-22.37.25:672][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.24-22.37.25:672][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:672][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.24-22.37.25:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.24-22.37.25:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.24-22.37.25:673][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.24-22.37.25:674][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.24-22.37.25:674][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.24-22.37.25:674][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.24-22.37.25:674][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.24-22.37.25:675][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.24-22.37.25:677][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.24-22.37.25:678][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.24-22.37.25:678][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.24-22.37.25:679][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.24-22.37.25:679][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.24-22.37.25:680][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.24-22.37.25:680][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.24-22.37.25:681][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.24-22.37.25:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.24-22.37.25:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.24-22.37.25:681][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.24-22.37.25:682][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.24-22.37.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.24-22.37.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.24-22.37.25:686][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.24-22.37.25:687][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.24-22.37.25:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.24-22.37.25:687][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.24-22.37.25:687][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.24-22.37.25:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.24-22.37.25:688][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.24-22.37.25:688][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:689][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.24-22.37.25:689][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.24-22.37.25:689][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.24-22.37.25:689][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.24-22.37.25:690][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.24-22.37.25:690][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.24-22.37.25:691][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.24-22.37.25:693][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.24-22.37.25:693][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.24-22.37.25:694][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:694][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.24-22.37.25:694][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.24-22.37.25:695][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.24-22.37.25:695][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.24-22.37.25:695][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.24-22.37.25:696][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.24-22.37.25:696][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.24-22.37.25:696][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.24-22.37.25:698][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.02.24-22.37.25:701][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.24-22.37.25:702][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.24-22.37.25:702][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.24-22.37.25:702][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.24-22.37.25:703][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.24-22.37.25:703][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.24-22.37.25:703][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.24-22.37.25:705][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.24-22.37.25:707][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.02.24-22.37.25:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.24-22.37.25:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.24-22.37.25:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.24-22.37.25:708][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.02.24-22.37.25:709][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.24-22.37.25:709][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.02.24-22.37.25:709][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.24-22.37.25:710][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.24-22.37.25:710][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.24-22.37.25:710][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.02.24-22.37.25:711][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.02.24-22.37.25:711][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:711][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.24-22.37.25:712][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.24-22.37.25:712][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:713][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.02.24-22.37.25:716][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.02.24-22.37.25:716][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.02.24-22.37.25:716][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2022.02.24-22.37.25:717][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsServer]
+[2022.02.24-22.37.25:717][  0]LogHAL: Display: Platform has ~ 12 GB [12842909696 / 17179869184 / 12], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2022.02.24-22.37.25:717][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2022.02.24-22.37.25:718][  0]LogInit: Going up to parent DeviceProfile []
+[2022.02.24-22.37.25:718][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:719][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2022.02.24-22.37.25:719][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2022.02.24-22.37.25:720][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:720][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2022.02.24-22.37.25:720][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:720][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2022.02.24-22.37.25:721][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2022.02.24-22.37.25:721][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2022.02.24-22.37.25:721][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2022.02.24-22.37.25:722][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2022.02.24-22.37.25:722][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2022.02.24-22.37.25:722][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2022.02.24-22.37.25:723][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2022.02.24-22.37.25:723][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2022.02.24-22.37.25:723][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2022.02.24-22.37.25:723][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2022.02.24-22.37.25:724][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2022.02.24-22.37.25:724][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2022.02.24-22.37.25:724][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2022.02.24-22.37.25:725][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2022.02.24-22.37.25:726][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2022.02.24-22.37.25:727][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2022.02.24-22.37.25:727][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2022.02.24-22.37.25:727][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:728][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2022.02.24-22.37.25:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2022.02.24-22.37.25:728][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2022.02.24-22.37.25:729][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2022.02.24-22.37.25:733][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2022.02.24-22.37.25:733][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2022.02.24-22.37.25:734][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2022.02.24-22.37.25:734][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2022.02.24-22.37.25:734][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2022.02.24-22.37.25:734][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2022.02.24-22.37.25:735][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2022.02.24-22.37.25:735][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2022.02.24-22.37.25:735][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2022.02.24-22.37.25:736][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2022.02.24-22.37.25:736][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2022.02.24-22.37.25:736][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2022.02.24-22.37.25:736][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2022.02.24-22.37.25:737][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2022.02.24-22.37.25:737][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2022.02.24-22.37.25:738][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2022.02.24-22.37.25:739][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2022.02.24-22.37.25:739][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2022.02.24-22.37.25:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2022.02.24-22.37.25:740][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2022.02.24-22.37.25:741][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2022.02.24-22.37.25:741][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2022.02.24-22.37.25:742][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2022.02.24-22.37.25:743][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2022.02.24-22.37.25:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2022.02.24-22.37.25:744][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2022.02.24-22.37.25:744][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:744][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2022.02.24-22.37.25:749][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2022.02.24-22.37.25:749][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2022.02.24-22.37.25:749][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2022.02.24-22.37.25:750][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2022.02.24-22.37.25:750][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2022.02.24-22.37.25:750][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2022.02.24-22.37.25:751][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2022.02.24-22.37.25:752][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2022.02.24-22.37.25:752][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:752][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2022.02.24-22.37.25:754][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2022.02.24-22.37.25:755][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2022.02.24-22.37.25:755][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2022.02.24-22.37.25:755][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2022.02.24-22.37.25:756][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2022.02.24-22.37.25:756][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2022.02.24-22.37.25:756][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2022.02.24-22.37.25:757][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2022.02.24-22.37.25:757][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2022.02.24-22.37.25:757][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2022.02.24-22.37.25:757][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2022.02.24-22.37.25:758][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2022.02.24-22.37.25:758][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2022.02.24-22.37.25:758][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2022.02.24-22.37.25:759][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2022.02.24-22.37.25:760][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2022.02.24-22.37.25:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2022.02.24-22.37.25:763][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2022.02.24-22.37.25:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2022.02.24-22.37.25:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2022.02.24-22.37.25:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2022.02.24-22.37.25:764][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2022.02.24-22.37.25:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2022.02.24-22.37.25:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2022.02.24-22.37.25:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2022.02.24-22.37.25:765][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2022.02.24-22.37.25:766][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2022.02.24-22.37.25:766][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2022.02.24-22.37.25:766][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:767][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2022.02.24-22.37.25:768][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2022.02.24-22.37.25:768][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../Homfy/Saved/Config/WindowsServer/Scalability.ini]
+[2022.02.24-22.37.25:768][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2022.02.24-22.37.25:769][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2022.02.24-22.37.25:769][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2022.02.24-22.37.25:769][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2022.02.24-22.37.25:769][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2022.02.24-22.37.25:770][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2022.02.24-22.37.25:770][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2022.02.24-22.37.25:770][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../Homfy/Saved/Config/WindowsServer/Engine.ini]
+[2022.02.24-22.37.25:771][  0]LogInit: Computer: DESKTOP-LE4RT3G
+[2022.02.24-22.37.25:772][  0]LogInit: User: edufs
+[2022.02.24-22.37.25:772][  0]LogInit: CPU Page size=4096, Cores=4
+[2022.02.24-22.37.25:773][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2022.02.24-22.37.25:773][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2022.02.24-22.37.25:773][  0]LogMemory: Platform Memory Stats for WindowsServer
+[2022.02.24-22.37.25:774][  0]LogMemory: Process Physical Memory: 76.30 MB used, 76.31 MB peak
+[2022.02.24-22.37.25:774][  0]LogMemory: Process Virtual Memory: 76.07 MB used, 76.07 MB peak
+[2022.02.24-22.37.25:776][  0]LogMemory: Physical Memory: 6179.20 MB used,  6068.76 MB free, 12247.95 MB total
+[2022.02.24-22.37.25:779][  0]LogMemory: Virtual Memory: 134209520.00 MB used,  8205.48 MB free, 134217728.00 MB total
+[2022.02.24-22.37.25:788][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2022.02.24-22.37.25:873][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2022.02.24-22.37.25:874][  0]LogInit: Using OS detected language (es-ES).
+[2022.02.24-22.37.25:875][  0]LogInit: Using OS detected locale (es-ES).
+[2022.02.24-22.37.25:876][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+[2022.02.24-22.37.25:877][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the locale.
+[2022.02.24-22.37.25:923][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2022.02.24-22.37.25:923][  0]LogODSC: ODSC Thread active.
+[2022.02.24-22.37.25:936][  0]LogInit: Using OS detected language (es-ES).
+[2022.02.24-22.37.25:936][  0]LogInit: Using OS detected locale (es-ES).
+[2022.02.24-22.37.25:936][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the language.
+[2022.02.24-22.37.25:937][  0]LogTextLocalizationManager: No localization for 'es-ES' exists, so 'en' will be used for the locale.
+[2022.02.24-22.37.25:938][  0]LogAssetRegistry: FAssetRegistry took 0.0011 seconds to start up
+[2022.02.24-22.37.26:054][  0]LogTextLocalizationManager: Compacting localization data took   2.00ms
+[2022.02.24-22.37.26:055][  0]LogStreaming: Display: FlushAsyncLoading: 1 QueuedPackages, 0 AsyncPackages
+[2022.02.24-22.37.26:055][  0]LogPackageLocalizationCache: Processed 26 localized package path(s) for 1 prioritized culture(s) in 0.000149 seconds
+[2022.02.24-22.37.26:056][  0]LogPakFile: New pak file ../../../Homfy/Content/Paks/Homfy-WindowsServer.pak added to pak precacher.
+[2022.02.24-22.37.26:057][  0]LogInit: Selected Device Profile: [WindowsServer]
+[2022.02.24-22.37.26:058][  0]LogInit: Active device profile: [000002B56D47E440][000002B56A06DB70 49] WindowsServer
+[2022.02.24-22.37.26:058][  0]LogInit: Profiles: [000002B56D47E5C0][000002B56C196DC0 49] Windows, [000002B56D47E440][000002B56A06DB70 49] WindowsServer, 
+[2022.02.24-22.37.26:103][  0]LogSerialization: Display: AllowBulkDataInIoStore: 'true'
+[2022.02.24-22.37.26:113][  0]LogNetVersion: Homfy 1.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 2129929613)
+[2022.02.24-22.37.26:168][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.24-22.37.26:168][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2022.02.24-22.37.26:173][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2022.02.24-22.37.26:219][  0]LogUObjectArray: 15918 objects as part of root set at end of initial load.
+[2022.02.24-22.37.26:219][  0]LogUObjectAllocator: 3293720 out of 0 bytes used by permanent object pool.
+[2022.02.24-22.37.26:221][  0]LogUObjectArray: CloseDisregardForGC: 15918/0 objects in disregard for GC pool
+[2022.02.24-22.37.26:239][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 6347380E441B3FF8697B5290D1AC2DA3 | Instance: 1B5507BC4078E52269F3BDA961A03604 (DESKTOP-LE4RT3G-13868).
+[2022.02.24-22.37.26:241][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2022.02.24-22.37.26:242][  0]LogOcInput: OculusInput pre-init called
+[2022.02.24-22.37.26:244][  0]LogEngine: Initializing Engine...
+[2022.02.24-22.37.26:246][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2022.02.24-22.37.26:254][  0]LogInit: Initializing FReadOnlyCVARCache
+[2022.02.24-22.37.26:255][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2022.02.24-22.37.26:256][  0]LogInit: Texture streaming: Disabled
+[2022.02.24-22.37.26:389][  0]LogInit: Display: Game Engine Initialized.
+[2022.02.24-22.37.26:391][  0]LogInit: Display: Starting Game.
+[2022.02.24-22.37.26:391][  0]LogNet: Browse: /Engine/Maps/Entry?Name=Player
+[2022.02.24-22.37.26:392][  0]LogLoad: LoadMap: /Engine/Maps/Entry?Name=Player
+[2022.02.24-22.37.26:395][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2022.02.24-22.37.26:399][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2022.02.24-22.37.26:402][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2022.02.24-22.37.26:410][  0]LogAIModule: Creating AISystem for world Entry
+[2022.02.24-22.37.26:411][  0]LogLoad: Game class is 'HomfyGameMode'
+[2022.02.24-22.37.26:411][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2022.02.24-22.37.26:412][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2022.02.24-22.37.26:413][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2022.02.24-22.37.26:413][  0]LogNet: Created socket for bind address: 0.0.0.0 on port 7777
+[2022.02.24-22.37.26:414][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.02.24-22.37.26:415][  0]LogNet: GameNetDriver IpNetDriver_2147482567 IpNetDriver listening on port 7777
+[2022.02.24-22.37.26:417][  0]LogWorld: Bringing World /Engine/Maps/Entry.Entry up for play (max tick rate 30) at 2022.02.24-23.37.26
+[2022.02.24-22.37.26:417][  0]LogWorld: Bringing up level for play took: 0.001472
+[2022.02.24-22.37.26:419][  0]LogLoad: Took 0.026956 seconds to LoadMap(/Engine/Maps/Entry)
+[2022.02.24-22.37.26:420][  0]LogPakFile: AllPaks IndexSizes: DirectoryHashSize=259756, PathHashSize=16, EntriesSize=36864, TotalSize=296636
+[2022.02.24-22.37.26:420][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2022.02.24-22.37.26:420][  0]LogLoad: (Engine Initialization) Total time: 2.45 seconds
+[2022.02.24-22.39.47:701][181]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60068
+[2022.02.24-22.39.47:701][181]LogHandshake: SendConnectChallenge. Timestamp: 141.280234, Cookie: 098236035188083173004098166026250193030200007149233139183016
+[2022.02.24-22.39.47:734][182]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60068
+[2022.02.24-22.39.47:734][182]LogHandshake: SendChallengeAck. InCookie: 098236035188083173004098166026250193030200007149233139183016
+[2022.02.24-22.39.47:735][182]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60068
+[2022.02.24-22.39.47:736][182]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2022.02.24-22.39.47:737][182]LogNet: NotifyAcceptedConnection: Name: Entry, TimeStamp: 02/24/22 23:39:47, [UNetConnection] RemoteAddr: 127.0.0.1:60068, Name: IpConnection_2147482561, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.02.24-22.39.47:737][182]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60068, Name: IpConnection_2147482561, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2022.02.24-22.39.47:800][184]LogNet: NotifyAcceptingChannel Control 0 server World /Engine/Maps/Entry.Entry: Accepted
+[2022.02.24-22.39.47:801][184]LogNet: Remote platform little endian=1
+[2022.02.24-22.39.47:802][184]LogNet: This platform little endian=1
+[2022.02.24-22.39.47:802][184]LogNetVersion: Homfy 1.0.0.0, NetCL: 0, EngineNetVer: 17, GameNetVer: 0 (Checksum: 957769700)
+[2022.02.24-22.39.47:899][187]LogNet: Login request: ?Name=DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532 userId: NULL:DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532 platform: NULL
+[2022.02.24-22.39.47:932][188]LogNet: Client netspeed is 100000
+[2022.02.24-22.39.47:965][189]LogNet: Join request: /Engine/Maps/Entry?Name=DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532?SplitscreenCount=1
+[2022.02.24-22.39.47:966][189]LogOnlineSession: Warning: OSS: No game present to join for session (GameSession)
+[2022.02.24-22.39.47:971][189]LogNet: Join succeeded: DESKTOP-LE4RT3G-9BA4
+[2022.02.24-22.40.09:203][811]LogNetPackageMap: Warning: Using None instead of replicated reference to BP_Sky_Sphere_C /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.SkySphereBlueprint because the level it's in has not been made visible
+[2022.02.24-22.40.09:209][811]LogNetPackageMap: Warning: Long net serialize: 489.997284ms, Serialized Object None
+[2022.02.24-22.40.09:214][811]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2022.02.24-22.40.09:215][811]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60068, Name: IpConnection_2147482561, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: PlayerController_2147482557, Owner: PlayerController_2147482557, UniqueId: NULL:DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532
+[2022.02.24-22.40.09:216][811]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60068, Name: IpConnection_2147482561, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: PlayerController_2147482557, Owner: PlayerController_2147482557, UniqueId: NULL:DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532, Channels: 8, Time: 2022.02.24-22.40.09
+[2022.02.24-22.40.09:228][811]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60068, Name: IpConnection_2147482561, Driver: GameNetDriver IpNetDriver_2147482567, IsServer: YES, PC: PlayerController_2147482557, Owner: PlayerController_2147482557, UniqueId: NULL:DESKTOP-LE4RT3G-9BA4E6BC42D08F74AEB5D4AA3FFFC532
+[2022.02.24-22.40.09:232][811]LogOnlineSession: Warning: OSS: No game present to leave for session (GameSession)
