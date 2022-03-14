@@ -1,13 +1,22 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{729E3877-4E80-862A-F071-A28829B2BC12}",
+	"EngineAssociation": "{533F7285-4586-21F6-F56D-C6840D992F21}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "Homfy",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "PanoramicCapture",
+			"Enabled": true
 		}
 	]
 }
