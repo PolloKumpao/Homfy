@@ -104,6 +104,9 @@ void USceneCapturer::InitCaptureComponent(USceneCaptureComponent2D* CaptureCompo
 
 	// UE4 cannot serialize an array of subobject pointers, so add these objects to the root
 	CaptureComponent->AddToRoot();
+
+	//Keder edit
+	
 }
 
 USceneCapturer::USceneCapturer(FVTableHelper& Helper)
@@ -432,7 +435,7 @@ UWorld* USceneCapturer::GetTickableGameObjectWorld() const
 void USceneCapturer::Reset()
 {
 	// apply old states on PP volumes
-	EnablePostProcessVolumes();
+	//EnablePostProcessVolumes();
 	
 	for( int CaptureIndex = 0; CaptureIndex < FStereoPanoramaManager::ConcurrentCaptures->GetInt(); CaptureIndex++ )
 	{
@@ -483,8 +486,10 @@ void USceneCapturer::DisableUnsupportedPostProcesses(USceneCaptureComponent2D* C
 }
 
 // Cache all PP volumes in scene and save current "enable" state
+// Y esta funcion keder
 void USceneCapturer::CacheAllPostProcessVolumes()
 {
+	/*
 	TArray<AActor*> AllActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), APostProcessVolume::StaticClass(), AllActors);
 	for (AActor* pp : AllActors)
@@ -495,9 +500,11 @@ void USceneCapturer::CacheAllPostProcessVolumes()
 		PPVolumeData.WasEnabled = PPVolumeObject->bEnabled;
 		PPVolumeArray.Add(PPVolumeData);
 	}
+	*/
 }
 
 // Apply old state on PP volumes
+/*
 void USceneCapturer::EnablePostProcessVolumes()
 {
 	for (FPostProcessVolumeData &PPVolume : PPVolumeArray)
@@ -507,6 +514,7 @@ void USceneCapturer::EnablePostProcessVolumes()
 }
 
 // Disable all PP volumes in scene to make sure g-buffer passes work
+//Estas de aqui tambien Keder
 void USceneCapturer::DisableAllPostProcessVolumes()
 {
 	for (FPostProcessVolumeData &PPVolume : PPVolumeArray)
@@ -514,7 +522,7 @@ void USceneCapturer::DisableAllPostProcessVolumes()
 		PPVolume.Object->bEnabled = false;
 	}
 }
-
+*/
 // setup capture component based on current render pass
 void USceneCapturer::SetCaptureComponentRequirements(int32 CaptureIndex)
 {
@@ -532,6 +540,8 @@ void USceneCapturer::SetCaptureComponentRequirements(int32 CaptureIndex)
 
 		// Enable bCaptureEveryFrame ONLY when capture is in a PPVolume with blendables, to avoid bandings
 		FVector CameraPosition = CapturePlayerController->PlayerCameraManager->GetCameraLocation();
+		//Este for tambien keder
+		/*
 		for (FPostProcessVolumeData &PPVolume : PPVolumeArray)
 		{
 			FBoxSphereBounds bounds = PPVolume.Object->GetBounds();
@@ -547,6 +557,7 @@ void USceneCapturer::SetCaptureComponentRequirements(int32 CaptureIndex)
 			}
 
 		}
+		*/
 	}
 
 	// SCENE DEPTH
@@ -1036,7 +1047,7 @@ void USceneCapturer::CaptureComponent(int32 CurrentHorizontalStep, int32 Current
 		// Generate name
 		FString TickString = FString::Printf(TEXT("_%05d_%04d_%04d"), CurrentFrameCount, CurrentHorizontalStep, CurrentVerticalStep);
 		//FString CaptureName = OutputDir / Timestamp / Folder / TickString + TEXT(".png");
-		FString CaptureName = OutputDir / TEXT(".png");
+		FString CaptureName = OutputDir /(".png");
 
 		// Write out PNG
 		if (FStereoPanoramaManager::GenerateDebugImages->GetInt() == 2)
@@ -1081,7 +1092,7 @@ void USceneCapturer::CaptureComponent(int32 CurrentHorizontalStep, int32 Current
 			ImageWrapper->SetRaw(SurfaceData.GetData(), SurfaceData.GetAllocatedSize(), StripWidth, StripHeight, ERGBFormat::BGRA, 32);
 			const TArray64<uint8>& PNGData = ImageWrapper->GetCompressed(100);
 
-			FFileHelper::SaveArrayToFile(PNGData, *CaptureName);
+			//FFileHelper::SaveArrayToFile(PNGData, *CaptureName);
 			ImageWrapper.Reset();
 		}
 	}
@@ -1172,11 +1183,13 @@ void USceneCapturer::Tick( float DeltaTime )
 
 			if (RenderPasses[CurrentRenderPassIndex] != ERenderPass::FinalColor)
 			{
-				DisableAllPostProcessVolumes();
+				//comentar esta parte¿?
+				//DisableAllPostProcessVolumes();
 			}
 			else
 			{
-				EnablePostProcessVolumes();
+				//Y esta¿?
+				//EnablePostProcessVolumes();
 			}
 
             CaptureStep = ECaptureStep::SetPosition;
@@ -1258,8 +1271,10 @@ void USceneCapturer::Tick( float DeltaTime )
 				}
 
 				// save as png 8bit/channel
-				FString FrameString = FString::Printf(TEXT("Frame_%05d_%s.png"), CurrentFrameCount, *RenderPassString);
-				FString AtlasName = OutputDir / Timestamp / RenderPassString / FrameString;
+				//FString FrameString = FString::Printf(TEXT("Frame_%05d_%s.png"), CurrentFrameCount, *RenderPassString);
+				FString FrameString = FString::Printf(TEXT("Frame.png"));
+				//FString AtlasName = OutputDir / Timestamp / RenderPassString / FrameString;
+				FString AtlasName = OutputDir / FrameString;
 				FString Msg = FString("Writing file: " + AtlasName);
 				FMessageLog(StereoPanoramaLogName).Message(EMessageSeverity::Info, FText::FromString(Msg));
 
@@ -1270,12 +1285,14 @@ void USceneCapturer::Tick( float DeltaTime )
 				FFileHelper::SaveArrayToFile(ImageData, *AtlasName);
 				ImageWrapper.Reset();
 				FMessageLog(StereoPanoramaLogName).Message(EMessageSeverity::Info, LOCTEXT("Done", "Done!"));
+			
 			}			
 			else
 			{
 				// stay in 32bit/channel
 				FString FrameString = FString::Printf(TEXT("Frame_%05d_%s.exr"), CurrentFrameCount, *RenderPassString);
-				FString AtlasName = OutputDir / Timestamp / RenderPassString / FrameString;
+				//FString AtlasName = OutputDir / Timestamp / RenderPassString / FrameString;
+				FString AtlasName = OutputDir / FrameString;
 				FString Msg = FString("Writing file: " + AtlasName);
 				FMessageLog(StereoPanoramaLogName).Message(EMessageSeverity::Info, FText::FromString(Msg));
 
@@ -1286,6 +1303,7 @@ void USceneCapturer::Tick( float DeltaTime )
 				FFileHelper::SaveArrayToFile(ImageData, *AtlasName);
 				ImageWrapper.Reset();
 				FMessageLog(StereoPanoramaLogName).Message(EMessageSeverity::Info, LOCTEXT("Done", "Done!"));
+				
 			}
 
 		}
@@ -1350,7 +1368,7 @@ void USceneCapturer::Tick( float DeltaTime )
 				FMessageLog(StereoPanoramaLogName).Message(EMessageSeverity::Info, FText::Format(LOCTEXT("CompleteDuration", "Duration: {Duration} minutes for frame range [{StartFrame},{EndFrame}] "), ExitArgs));
 				
 				FString FrameDescriptorName = OutputDir / Timestamp / TEXT("Frames.txt");
-				FFileHelper::SaveStringToFile(FrameDescriptors, *FrameDescriptorName, FFileHelper::EEncodingOptions::ForceUTF8);
+				//FFileHelper::SaveStringToFile(FrameDescriptors, *FrameDescriptorName, FFileHelper::EEncodingOptions::ForceUTF8);
 
 				bIsTicking = false;
 				FStereoPanoramaModule::Get()->Cleanup();

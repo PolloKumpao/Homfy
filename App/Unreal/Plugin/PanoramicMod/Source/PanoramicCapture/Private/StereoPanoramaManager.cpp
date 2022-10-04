@@ -48,6 +48,7 @@ IConsoleVariable* FStereoPanoramaManager::OutputBitDepth			= IConsoleManager::Ge
 // Monoscpic mode
 IConsoleVariable* FStereoPanoramaManager::MonoscopicMode = IConsoleManager::Get().RegisterConsoleVariable(TEXT("SP.Monoscopic"), false, TEXT("Output in monoscopic."), ECVF_Default);
 
+
 //This will use camera's rotation. Use param by adding desired axis. Pitch=1 Yaw=2 Roll=4, All axis is 7 (=1+2+4)
 IConsoleVariable* FStereoPanoramaManager::UseCameraRotation = IConsoleManager::Get().RegisterConsoleVariable(TEXT("SP.UseCameraRotation"), 0, TEXT("Allow each axis to follow camera rotation. Pitch=1 Yaw=2 Roll=4, All axis is 7 (=1+2+4) "), ECVF_Default);
 

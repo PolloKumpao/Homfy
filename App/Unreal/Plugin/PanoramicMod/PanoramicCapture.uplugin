@@ -16,7 +16,7 @@
 	"Modules": [
 		{
 			"Name": "PanoramicCapture",
-			"Type": "UncookedOnly",
+			"Type": "Runtime",
 			"LoadingPhase": "Default",
 			"WhitelistPlatforms": [
 				"Win64"

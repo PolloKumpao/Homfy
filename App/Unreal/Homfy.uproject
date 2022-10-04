@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "{F222B1A8-4C86-F885-C510-1580ECAAC62B}",
+	"EngineAssociation": "4.27",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -16,7 +16,7 @@
 	"Plugins": [
 		{
 			"Name": "PanoramicCapture",
-			"Enabled": true
+			"Enabled": false
 		}
 	]
 }

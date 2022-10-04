@@ -68,12 +68,16 @@ public:
 	static IConsoleVariable* OutputBaseColor;
 	static IConsoleVariable* OutputAmbientOcclusion;
 	static IConsoleVariable* OutputBitDepth;
-
+	//Keder edit
+	static IConsoleVariable* OutputIsRunning;
 	// Output in mono
 	static IConsoleVariable* MonoscopicMode;
 
 	/** This will use camera's rotation. Use param by adding desired axis. Pitch=1 Yaw=2 Roll=4, All axis is 7 (=1+2+4) */
 	static IConsoleVariable* UseCameraRotation;
+	
+
+	
 
 private:
 

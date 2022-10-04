@@ -236,7 +236,7 @@ private:
 	const bool bOutputMetallic;
 	const bool bOutputBaseColor;
 	const bool bOutputAmbientOcclusion;
-
+	//keder edit
 	// output in mono (1 eye)
 	const bool bMonoscopicMode;
 
